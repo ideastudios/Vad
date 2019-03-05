@@ -3,6 +3,7 @@ package tech.oom.vadlibrary;
 /**
  * Vad class based on webrtc  only 48000kbps 32000kbps 16000kbps 8000kbps sample rate buffer are supported
  * Highly recommend you used @see <a href="https://github.com/ideastudios/IdealRecorder">IdealRecorder</a>
+ * and set the sample rate you want
  */
 public class Vad {
 
