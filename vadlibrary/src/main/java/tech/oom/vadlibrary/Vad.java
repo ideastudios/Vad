@@ -8,7 +8,7 @@ package tech.oom.vadlibrary;
 public class Vad {
 
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("oomvad-lib");
     }
 
     /**
