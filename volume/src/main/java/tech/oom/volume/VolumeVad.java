@@ -85,7 +85,6 @@ public class VolumeVad {
         }
         //1s为1000ms 1 short = 2*byte
         long currentLengthInMillis = 1000 * 2 * wave.length / (getSampleRate() * getbSamples() * getChannel() / 8);
-        Log.d(TAG, "当前buffer时长");
         float volume = calculateVolume(wave);
         if (minVolume == 0 && maxVolume == 0) {
             minVolume = volume;
