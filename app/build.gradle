@@ -29,6 +29,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.yanzhenjie:permission:1.1.0'
     implementation 'com.github.ideastudios:IdealRecorder:2.0.2'
-//    implementation project(':vadlibrary')
-    implementation 'com.github.ideastudios:Vad:1.0.1'
+    implementation project(':vadlibrary')
+//    implementation 'com.github.ideastudios:Vad:1.0.1'
 }
